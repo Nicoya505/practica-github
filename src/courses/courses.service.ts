@@ -13,7 +13,6 @@ export class CoursesService {
   }
 
   create(createCourseDto: CreateCourseDto) {
-    console.log(`esto es una prueba`)
     const course: Course = {
       id: uuidv4(),
       name: createCourseDto.name,
